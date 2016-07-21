@@ -1,0 +1,181 @@
+.starter-template { 
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.navbar {
+    margin-top: 2em;
+    margin-bottom: 0 !important;
+    position: absolute;
+}
+
+.navContainer {
+    min-width: 90vw;
+}
+
+.navbar-nav>li>a {
+    color: white;
+    background-color:transparent !important;
+    font-size: 125%;
+}
+
+ul.nav a:visited {
+    background-color:transparent !important;
+}
+
+ul.nav a:hover {
+    border-bottom: 1px solid white;
+    background-color:transparent !important;
+}
+    
+ul.nav a:active {
+    background-color:transparent !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+button.navbar-toggle>span {
+    background-color: white;
+}
+
+header {
+    background: url(background.png);
+    height: 80vh;
+    position: relative;
+}
+
+#headerContainer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+header>div>h1 {
+    font-size: 12vw;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+p {
+    font-size: 4vw !important;
+}
+
+main>div>h1 {
+    text-align: center;
+}
+
+#sectionOne {
+    margin-top: 12em;
+    padding: 15px;
+}
+
+#sectionOne>p {
+    font-size: 50px;
+}
+
+#sectionTwo {
+    margin-top: 10em;
+    padding: 15px;
+}
+
+.mainContent {
+    max-width: 75vw;
+    text-align: center;
+}
+
+footer {
+    background: url(background.png);
+    min-height: 18vh;
+    color: white;
+    
+}
+
+footer>div {
+    text-align: right;
+}
+
+footer>div>p {
+    vertical-align: middle;
+}
+
+footer>div>a>img {
+    margin-top: 2.5em;
+    margin-right: 1.5em;
+}
+
+footer>div>p {
+    text-align: left;
+    font-size: 2vw !important;
+}
+
+.imagedropshadow {
+    padding: 0px;
+    border: solid 1px lightgrey;
+    margin-top: 2em;
+}
+
+a:hover img.imagedropshadow {
+    border: solid 1px #CCC; 
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.magnify { 
+    transition: all .2s ease-in-out; 
+}
+.magnify:hover { 
+    transform: scale(1.2); 
+}
+
+.magnifyPf { 
+    transition: all .2s ease-in-out; 
+}
+.magnifyPf:hover { 
+    transform: scale(1.05); 
+}
+
+.magnifyArrow { 
+    transition: all .2s ease-in-out; 
+}
+.magnifyArrow:hover { 
+    transform: scale(1.1); 
+}
+
+portImage {
+    padding: 1em;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+
+
+.borderTop {
+    border-top: 1px solid grey;
+}
+
+.copyright {
+    float: left;
+    vertical-align: middle;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+    transition: all .2s ease-in-out;
+}
+
+.flip {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+    transition: all .2s ease-in-out; 
+}
